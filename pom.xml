@@ -77,7 +77,7 @@
         <spring-cloud-dependencies.version>2024.0.0</spring-cloud-dependencies.version>
         <spring.profiles.active>dev</spring.profiles.active>
         <springdoc-openapi-starter-webmvc-api.version>2.7.0</springdoc-openapi-starter-webmvc-api.version>
-        <sonar.organization>erickramirezo</sonar.organization>
+        <sonar.organization>adalicarvajal</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 
