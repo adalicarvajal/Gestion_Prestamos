@@ -1,0 +1,28 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "alert": {
+      "home": {
+        "title": "Alerts",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Alert",
+        "createOrEditLabel": "Crear o editar Alert",
+        "notFound": "Ningún Alerts encontrado"
+      },
+      "created": "Un nuevo Alert ha sido creado con el identificador {{ param }}",
+      "updated": "Un Alert ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Alert ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Alert {{ id }}?"
+      },
+      "detail": {
+        "title": "Alert"
+      },
+      "id": "ID",
+      "alertType": "Alert Type",
+      "alertTime": "Alert Time",
+      "emailSent": "Email Sent",
+      "details": "Details",
+      "user": "User"
+    }
+  }
+}

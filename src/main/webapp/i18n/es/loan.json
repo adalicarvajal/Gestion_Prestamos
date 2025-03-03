@@ -1,0 +1,29 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "prestamos": {
+      "home": {
+        "title": "Préstamos",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Préstamo",
+        "createOrEditLabel": "Crear o editar préstamo",
+        "notFound": "Ningún Préstamos encontrado"
+      },
+      "created": "Un nuevo Préstamos ha sido creado con el identificador {{ param }}",
+      "updated": "Un Préstamos ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Préstamos ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Préstamos {{ id }}?"
+      },
+      "detail": {
+        "title": "Préstamos"
+      },
+      "id": "ID",
+      "requestedAmount": "Monto Solicitado",
+      "interestRate": "Tasa de Interés",
+      "paymentTermMonths": "Plazo de Pago (Meses)",
+      "applicationDate": "Fecha de Solicitud",
+      "status": "Estado",
+      "user": "Usuario"
+    }
+  }
+}

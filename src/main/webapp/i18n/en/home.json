@@ -1,0 +1,12 @@
+{
+  "home": {
+    "title": "Welcome to Intercap Bank!",
+    "loan": "Make a Loan",
+    "payment": "Make a Payment",
+    "amortization": "Amortizations",
+    "subtitle": "This is your homepage",
+    "logged": {
+      "message": "You are logged in as user \"{{username}}\"."
+    }
+  }
+}

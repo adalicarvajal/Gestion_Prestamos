@@ -1,0 +1,39 @@
+entity UserData {
+    salary BigDecimal required
+    familyLoad Integer required
+    workplace String required
+    housingType String
+    rentCost BigDecimal
+    yearsOfEmployment Integer required
+    employmentStatus Integer required
+}
+
+entity Loan {
+    requestedAmount BigDecimal required
+    interestRate BigDecimal required
+    paymentTermMonths Integer required
+    applicationDate LocalDate
+    status Integer required
+}
+
+entity Amortization {
+    installmentNumber Integer required
+    dueDate LocalDate required
+    remainingBalance BigDecimal required
+    principal BigDecimal required
+    paymentDate LocalDate
+    paymentAmount BigDecimal required
+    penaltyInterest BigDecimal
+}
+
+relationship ManyToOne {
+    UserData{user(id)} to User with builtInEntity
+    Loan{user(id)} to User with builtInEntity
+    Amortization{loan} to Loan
+}
+
+paginate Loan, Amortization with pagination
+
+dto * with mapstruct
+
+service all with serviceImpl

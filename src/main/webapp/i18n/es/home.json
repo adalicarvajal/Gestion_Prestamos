@@ -1,0 +1,12 @@
+{
+  "home": {
+    "title": "¡Bienvenido a Banco Intercap!",
+    "loan": "Realizar un préstamo",
+    "payment": "Realizar un pago",
+    "amortization": "Amortizaciones",
+    "subtitle": "Esta es su página de inicio",
+    "logged": {
+      "message": "Está conectado como \"{{username}}\"."
+    }
+  }
+}

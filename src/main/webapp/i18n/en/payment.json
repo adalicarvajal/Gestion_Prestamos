@@ -1,0 +1,35 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "pagos": {
+      "home": {
+        "title": "Payments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Make a new payment",
+        "notFound": "No payments found"
+      },
+      "id": "id",
+      "requestedAmount": "Requested amount",
+      "interestRate": "Interest rate",
+      "paymentTermMonths": "Payment term (Months)",
+      "applicationDate": "Application date",
+      "status": "Status",
+      "user": "User",
+      "created": "A new payment has been created with the identifier {{ param }}",
+      "updated": "The payment with identifier {{ param }} has been updated",
+      "deleted": "The payment with identifier {{ param }} has been deleted",
+      "delete": {
+        "question": "Are you sure you want to delete the payment with ID {{ id }}?"
+      },
+      "detail": {
+        "title": "Payment details"
+      },
+      "entity": {
+        "action": {
+          "view": "View",
+          "edit": "Edit",
+          "delete": "Delete"
+        }
+      }
+    }
+  }
+}

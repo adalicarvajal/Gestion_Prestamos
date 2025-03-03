@@ -1,0 +1,31 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "amortization": {
+      "home": {
+        "title": "Amortización",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nueva Amortización",
+        "createOrEditLabel": "Crear o editar Amortización",
+        "notFound": "Ninguna amortización encontrada"
+      },
+      "created": "Una nueva amortización ha sido creado con el identificador {{ param }}",
+      "updated": "Una nueva amortización ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Una nueva amortización ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar la amortización {{ id }}?"
+      },
+      "detail": {
+        "title": "Amortización"
+      },
+      "id": "ID",
+      "installmentNumber": "Número de cuota",
+      "dueDate": "Fecha de vencimiento",
+      "remainingBalance": "Saldo restante",
+      "principal": "Capital",
+      "paymentDate": "Fecha de pago",
+      "paymentAmount": "Monto del pago",
+      "penaltyInterest": "Interés por penalización",
+      "loan": "Préstamo"
+    }
+  }
+}

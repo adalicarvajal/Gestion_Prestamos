@@ -1,0 +1,28 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "log": {
+      "home": {
+        "title": "Logs",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Log",
+        "createOrEditLabel": "Crear o editar Log",
+        "notFound": "Ningún Logs encontrado"
+      },
+      "created": "Un nuevo Log ha sido creado con el identificador {{ param }}",
+      "updated": "Un Log ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Log ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Log {{ id }}?"
+      },
+      "detail": {
+        "title": "Log"
+      },
+      "id": "ID",
+      "eventType": "Event Type",
+      "eventTime": "Event Time",
+      "ipAddress": "Ip Address",
+      "description": "Description",
+      "user": "User"
+    }
+  }
+}

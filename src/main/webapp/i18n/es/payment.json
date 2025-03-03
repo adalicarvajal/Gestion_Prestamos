@@ -1,0 +1,35 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "pagos": {
+      "home": {
+        "title": "Pagos",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Realizar un nuevo pago",
+        "notFound": "No se han encontrado pagos"
+      },
+      "id":"id",
+      "requestedAmount": "Monto solicitado",
+      "interestRate": "Tasa de interés",
+      "paymentTermMonths": "Plazo de pago (Meses)",
+      "applicationDate": "Fecha de solicitud",
+      "status": "Estado",
+      "user": "Usuario",
+      "created": "Un nuevo pago ha sido creado con el identificador {{ param }}",
+      "updated": "El pago con el identificador {{ param }} ha sido actualizado",
+      "deleted": "El pago con el identificador {{ param }} ha sido eliminado",
+      "delete": {
+        "question": "¿Estás seguro de que quieres eliminar el pago con ID {{ id }}?"
+      },
+      "detail": {
+        "title": "Detalles del pago"
+      },
+      "entity": {
+        "action": {
+          "view": "Ver",
+          "edit": "Editar",
+          "delete": "Eliminar"
+        }
+      }
+    }
+  }
+}

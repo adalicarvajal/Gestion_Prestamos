@@ -1,0 +1,31 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "userData": {
+      "home": {
+        "title": "Datos de usuarios",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevos datos",
+        "createOrEditLabel": "Crear o editar datos de usuario",
+        "notFound": "Ningún dato de usuario encontrado"
+      },
+      "created": "Nuevos datos de usuarios ha sido creado con el identificador {{ param }}",
+      "updated": "Nuevos datos de usuarios  ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Nuevos datos de usuarios  ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar los datos de usuario {{ id }}?"
+      },
+      "detail": {
+        "title": "Datos de usuario"
+      },
+      "id": "ID",
+      "salary": "Salario",
+      "familyLoad": "Carga Familiar",
+      "workplace": "Lugar de trabajo",
+      "housingType": "Tipo de vivienda",
+      "rentCost": "Costo de alquiler",
+      "yearsOfEmployment": "Años de empleo",
+      "employmentStatus": "Estado de empleo",
+      "user": "Usuario"
+    }
+  }
+}
